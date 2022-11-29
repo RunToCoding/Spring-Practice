@@ -12,7 +12,7 @@
 ### 스프링 입문
 |Date|Section|LINK|
 |:--:|:---|:---|
-|2022.11.28|Section 01. 프로젝트 환경 설정|  [Spring 환경설정]([https://substantial-lord-080.notion.site/1-4f5c87cb9cd24398b8d99f44e8d9a427) |
+|2022.11.28|Section 01. 프로젝트 환경 설정| [Spring 환경설정](https://substantial-lord-080.notion.site/1-4f5c87cb9cd24398b8d99f44e8d9a427) |
 |2022.11.28|Section 02. 스프링 웹 개발 기초| [Spring web 개발 기초](https://substantial-lord-080.notion.site/2-73ee16d14dff4099b718a2e6688f3949)|
 |2022.11.28|Section 03. 회원 관리 예제 - 백엔드 개발| [회원관리 예제](https://substantial-lord-080.notion.site/3-90be9aabd9554bee96d3093fc00caa6a)|
 |2022.11.28|Section 04. 스프링 빈과 의존 관계| [Spring Bean & DI](https://substantial-lord-080.notion.site/4-91d33fb57d284377a805c208f87752aa)|
