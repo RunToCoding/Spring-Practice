@@ -3,9 +3,12 @@ package hello.hellospring.service;
 import java.util.List;
 import java.util.Optional;
 
+import javax.transaction.Transactional;
+
 import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberRepository;
 
+@Transactional
 public class MemberService {
 	
 	// member 레파지토리 선언
@@ -19,10 +22,12 @@ public class MemberService {
 	 * 회원가입
 	 */
 	public Long join(Member member) {
+		
 		validateDuplicateMember(member); // 중복 회원 검증
 		
 		memberRepository.save(member);
 		return member.getId();
+		
 	}
 
 	// validateDuplicateMember : extract Method를 통해 생성된 함수 : Alt+shift+M
