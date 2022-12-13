@@ -6,8 +6,8 @@
 - [Section 03. 회원 관리 예제 - 백엔드 개발](./01.%20introduction/Section03.md)
 - [Section 04. 스프링 빈과 의존 관계](./01.%20introduction/Section04.md)
 - [Section 05. 회원 관리 예제 - 웹 MVC 개발](./01.%20introduction/Section05.md)
-- Section 06. 스프링 DB 접근 기술
-- Section 07. AOP|
+- [Section 06. 스프링 DB 접근 기술](./01.%20introduction/Section06.md)
+- [Section 07. AOP](./01.%20introduction/Section07.md)
 
 ### 스프링 핵심 원리 - 기본편
 - Section 01. 객체 지향 설계와 스프링
