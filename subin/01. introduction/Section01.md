@@ -79,7 +79,7 @@ public class HelloController {
 </html>
 ```
 #### thymeleaf 템플릿 동작 환경
-![thymeleaf 템플릿 동작 환경](../00.img/section01-01.png)
+![thymeleaf 템플릿 동작 환경](../00.img/introduction/section01-01.png)
 1. `/hello` 가 들어오면 내장 톰캣 서버에서 `helloController` 로 전달
 2. 컨트롤러는 hello를 mapping 시킬 수 있는지 확인 후, mapping 가능하면 실행
 3. Model에  `data` 를 넣고 return 시킴 ⇒ thymeleaf 템플릿 엔진이 처리
