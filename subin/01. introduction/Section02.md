@@ -23,7 +23,7 @@
 
 요청에 대해서 컨트롤러를 먼저 확인한 후 static 폴더 내에서 hello-static.html을 찾음
 
-![정적컨텐츠 원리](../00.img/section02-01.png)
+![정적컨텐츠 원리](../00.img/introduction/section02-01.png)
 
 ## 2. MVC와 템플릿 엔진
 
@@ -63,7 +63,7 @@ View
 ### 2.2 MVC, 템플릿 엔진
 
 parameter가 추가된 것 빼고는 거의 동일한 형태
-![](../00.img/section02-02.png)
+![](../00.img/introduction/section02-02.png)
 
 ## 3. API
 ### 3.1 문자 반환 및 객체 반환
@@ -119,7 +119,7 @@ public class HelloController {
 
 ### 3.2 사용 원리
 
-- `@ResponseBody` 를 사용하여 API 생성<br/>![API 사용 원리](../00.img/section02-03.png)
+- `@ResponseBody` 를 사용하여 API 생성<br/>![API 사용 원리](../00.img/introduction/section02-03.png)
 - HTTP의 BODY에 응답을 넣는 형태인데, 문자가 반환되는 경우 그대로 body에 넣고 객체가 반환되는 경우 JSON 형태로 body에 넣음
 - viewReslover 대신에 HttpMessageConverter가 동작
     - 기본 문자 처리 : StringHttpMessageConverter
