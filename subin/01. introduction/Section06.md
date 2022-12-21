@@ -254,11 +254,11 @@ public class SpringConfig {
 MemberService 는 MemberRepository 를 의존하고 있는 형태이며,
 MemberRepository 는 구현체로 MemoryMemberRepository 와 JdbcMemberRepository 를 가지고 있음
 
-![](../00.img/section06-01.png)
+![](../00.img/introduction/section06-01.png)
 
 연결을 memory 에서 jdbc 로 변경하였을 뿐 그 외에 바뀐 것은 없음
 
-![](../00.img/section06-02.png)
+![](../00.img/introduction/section06-02.png)
 
 스프링 DI 를 사용하면 기존 코드를 전혀 손대지 않고, 설정만으로 구현 클래스를 변경할 수 있다. (연결만 변경)
 
@@ -592,7 +592,7 @@ public class SpringConfig {
 
 스프링 데이터 JPA 가 상속 받은 JPA 리포지토리를 확인해보면 기본 메서드에 대해 제공을 해주는 것을 확인할 수 있다.
 
-![](../00.img/section06-03.png)
+![](../00.img/introduction/section06-03.png)
 
 스프링 데이터 JPA 가 제공하는 기능은 다음과 같다.
 - 인터페이스를 통한 기본적인 CRUD
