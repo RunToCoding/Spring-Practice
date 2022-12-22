@@ -75,7 +75,7 @@ public class MemberService {
 AOP 는 공통 관심 사항 (cross-cutting concern) 과 핵심 관심 사항 (core concern) 을 분리하는 역할을 한다.
 아래와 같이 시간 측정 로직을 한 군데 모으고, 여기서 원하는 곳에 공통 관심 사항을 적용하는 형태로 구현이 가능하다는 의미이다.
 
-![](../00.img/section07-01.png)
+![](../00.img/introduction/section07-01.png)
 
 시간 측정 코드를 직접 작성해보려 한다. 여기서 주의할 점은 AOP 사용을 위해서 @Aspect 애노테이션을 추가해야 한다는 점이다.
 ```java
@@ -168,17 +168,17 @@ public class TimeTraceAop {
 
 AOP 적용 전 의존 관계
 
-![](../00.img/section07-02.png)
+![](../00.img/introduction/section07-02.png)
 
 AOP 적용 후 의존 관계<br/>
 ⇒ 프록시라고 하는 가짜 스프링 빈을 앞에 세워 놓고 컨트롤러와 연결하며, joinPoint.proceed()를 통해 진짜 서비스에 연결
 
-![](../00.img/section07-03.png)
+![](../00.img/introduction/section07-03.png)
 
 AOP 적용 전 전체 그림
 
-![](../00.img/section07-04.png)
+![](../00.img/introduction/section07-04.png)
 
 AOP 적용 후 전체 그림
 
-![](../00.img/section07-05.png)
+![](../00.img/introduction/section07-05.png)
